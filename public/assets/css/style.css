@@ -1,24 +1,11 @@
+/* Show it is fixed to the top */
 body {
-  font-family: sans-serif;
-  margin: auto;
-  max-width: 1280px;
+  min-height: 75rem;
+  padding-top: 7rem;
 }
 
-.navbar {
-  background-color: #313236;
-  border-radius: 2px;
-  max-width: 800px;
-}
 
-.navbar a {
-  color: #aaa;
-  display: inline-block;
-  font-size: 15px;
-  padding: 10px;
-  text-decoration: none;
+.text-line-header {
+  background: #17469E;
+  color: white;
 }
-
-.navbar a:hover {
-  color: #ffffff;
-}
-
